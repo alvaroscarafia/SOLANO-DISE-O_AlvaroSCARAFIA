@@ -1,0 +1,120 @@
+                                                    /*FUENTES AGREGADAS  */
+@font-face {
+    font-family: fontuno;
+    src: url(/Multimedia/fonts/LEMONMILK-RegularItalic.otf);
+}
+@font-face{
+    font-family: fontdos;
+    src: url(/Multimedia/fonts/LEMONMILK-BoldItalic.otf);
+}
+
+
+
+
+                                                    /* HEADER */
+
+header{
+    padding: 3rem;
+}
+
+
+
+
+
+
+                                                    /*  NAVBAR */
+nav{
+    padding:15rem;
+    height: 5rem;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+                                                    /* SECCION A */
+h2{
+    padding-bottom: 4rem;
+    font-size: 3rem;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+h2:hover{
+    transform: scale(120%);
+    transition: all 2s;
+}
+
+.seccionA{
+    padding: 4rem;
+}
+                                                    /* FOOTER   */
+footer{
+    background-image: url(/Multimedia/img/fondo1.png);
+    background-position: bottom;
+    border: 1rem double black;
+    margin-bottom: 2rem;
+}
+footer p{
+padding-top: 1rem;
+font-weight: bold;
+font-family: monospace;
+}
+.iconsF{
+    padding-top: 4rem;
+}
+
+.anim:hover{
+    transform: scale(130%);
+    transition: all 1.5s;
+}
+
+
+
+                                                    /* PRODUCTOS */
+
+.card:hover{
+    transform: scale(120%);
+    transition: all 2s;
+
+}
+
+
+
+                                                    /* SOBRE NOSOTROS */
+
+
+
+.bio{
+    margin-top: 1rem;
+    font-family: fontuno;
+    padding: 5rem;
+    border: 1rem double black;
+    border-radius: 5%;
+    font-size: 20px;
+}
+
+.bio:hover{
+    background-color: rgb(221, 219, 219);
+    transition: all 2s;
+}
+
+
+                                                    /* COMO TRABAJAMOS */
+
+.howww{
+    font-size: 20px;
+}
+
+
+@media screen and (max-width:1200px){
+    .howww{
+        padding: 1rem;
+        font-size:15px;
+        text-align: center;
+    }
+    .bio{
+        padding: 1rem;
+        font-size: 13px;
+
+    }
+    
+}
